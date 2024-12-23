@@ -1,0 +1,88 @@
+@media screen and (min-width: 650px) {
+  body {
+    flex-direction: row;
+  }
+
+  main {
+    padding: 1rem 2%;
+  }
+
+  .app-bar {
+    width: fit-content;
+    padding: 0;
+  }
+
+  header {
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
+
+  .app-bar .app-bar__navigation {
+    position: sticky;
+    left: 0;
+  }
+
+  .app-bar .app-bar__menu button {
+    display: none;
+  }
+
+  .content__setting__navigation {
+    height: 88vh;
+    position: sticky;
+    top: 0;
+  }
+
+  .management__navigation {
+    justify-content: start;
+  }
+
+  .management__navigation__tabs {
+    gap: 4rem;
+  }
+
+  .management__navigation label {
+    padding: 1rem;
+  }
+
+  .content__setting__management h3 {
+    padding: 1.5rem 1rem;
+  }
+
+  .management__contents .add-card {
+    margin: 0;
+  }
+
+  .card {
+    margin: 0;
+  }
+}
+ 
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 2em;
+  }
+
+  .management__navigation__tabs.homepage {
+    gap: .5rem;
+  }
+  
+  .content.homepage {
+    flex-direction: row;
+  }
+
+  .content__management {
+    width: 70%;
+  }
+
+  .content__info {
+    width: 30%;
+  }
+
+  .payment-configuration {
+    width: 30%;
+  }
+
+  .content__setting {
+    flex-direction: row;
+  }
+}
